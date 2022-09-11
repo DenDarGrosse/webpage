@@ -17,7 +17,7 @@
     <tr v-for="item in selectedOption.params" v-bind:key="item">
       <td> {{ item.caption }}</td>
       <td>
-        <input v-model="this.params[item.name]" placeholder="отредактируй меня">
+        <input v-model="this.params[item.name]" placeholder="Введите данные">
       </td>
     </tr>
     </tbody>
